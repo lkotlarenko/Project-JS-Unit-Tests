@@ -1,0 +1,30 @@
+{
+  "root": true,
+  "extends": [
+    "trybe-fundamentals"
+  ],
+  "rules": {
+    "no-console": "off",
+    "prefer-arrow-callback": "off",
+    "func-names": "off",
+    "no-param-reassign": "off",
+    "prefer-const": "off",
+    "no-unused-vars": "off",
+    "max-lines-per-function": "off",
+    "no-var": "off",
+    "vars-on-top": "off",
+    "block-scoped-var": "off",
+    "no-redeclare": "off",
+    "no-restricted-syntax": [
+      "off",
+      "FunctionExpression",
+      "WithStatement",
+      "BinaryExpression[operator='in']"
+    ]
+  },
+  "env": {
+    "browser": false,
+    "node": true,
+    "jest": true
+  }
+}

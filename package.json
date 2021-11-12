@@ -1,0 +1,30 @@
+{
+  "name": "sd-0x-block8-project-js-unit-tests",
+  "version": "1.0.0",
+  "description": "Project for block 8",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest tests/",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/betrybe/ssd-0x-block8-project-js-unit-test.git"
+  },
+  "keywords": [
+    "javascript",
+    "tests",
+    "assert",
+    "jest"
+  ],
+  "author": "Jean Vasconcelos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/betrybe/sd-0x-block8-project-js-unit-test/issues"
+  },
+  "homepage": "https://github.com/betrybe/sd-0x-block8-project-js-unit-test#readme",
+  "devDependencies": {
+    "eslint-config-trybe-fundamentals": "1.1.1",
+    "jest": "24.9.0"
+  }
+}
