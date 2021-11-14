@@ -46,7 +46,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 Nesse projeto, você será capaz de:
 
-- Escrever testes unitários para funções utilizando o módulo Assert do NodeJS para verificar o correto funcionamento dessas funções;
+- Escrever testes unitários para funções utilizando o Jest, um poderoso Framework de Testes em JavaScript, para verificar o correto funcionamento dessas funções;
 - A partir de testes já implementados, escrever funções de forma que elas atendam aos testes propostos;
 - Escrever testes e funções utilizando uma abordagem de desenvolvimento orientado a testes.
 
