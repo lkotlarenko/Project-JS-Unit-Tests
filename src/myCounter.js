@@ -1,7 +1,7 @@
-/* eslint-disable no-var */
-/* eslint-disable block-scoped-var */
+/* eslint-disable no-let */
+/* eslint-disable block-scoped-let */
 /* eslint-disable no-redeclare */
-/* eslint-disable vars-on-top */
+/* eslint-disable lets-on-top */
 
 /*
   A função myCounter possui dois loops aninhados que inserem valores dentro de um array.
@@ -17,11 +17,11 @@
 */
 
 const myCounter = () => {
-  var myArray = [];
-  for (var counter = 0; counter <= 3; counter += 1) {
+  let myArray = [];
+  for (let counter = 0; counter <= 3; counter += 1) {
     myArray.push(counter);
-    for (var counter = 2; counter <= 3; counter += 1) {
-      myArray.push(counter);
+    for (let i = 2; i <= 3; i += 1) {
+      myArray.push(i);
     }
   }
   return myArray;
