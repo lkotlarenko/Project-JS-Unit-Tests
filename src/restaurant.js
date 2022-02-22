@@ -44,6 +44,8 @@
   
 */
 
+//* This file may have parts of it written by @Jean Paulo Silva Vasconcelos
+
 const createMenu = () => {};
 
 module.exports = createMenu;

@@ -15,6 +15,8 @@
     estudante.feedback() // Retorna: 'Eita pessoa boa!'
 */
 
+//* This file may have parts of it written by @Jean Paulo Silva Vasconcelos
+
 const createStudent = (name) => {
   let student = { name };
   student.feedback = () => 'Eita pessoa boa!';

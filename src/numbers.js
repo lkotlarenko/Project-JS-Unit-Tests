@@ -9,6 +9,8 @@
     - numbers([2, 'errado', 5]); // Retorna: false
 */
 
+//* This file may have parts of it written by @Jean Paulo Silva Vasconcelos
+
 const numbers = (myArray) => {
   for (let i = 0; i < myArray.length; i += 1) {
     if (typeof myArray[i] !== 'number') {

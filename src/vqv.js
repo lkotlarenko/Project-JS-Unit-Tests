@@ -16,6 +16,8 @@
       #VQV!'
 */
 
+//* This file may have parts of it written by @Jean Paulo Silva Vasconcelos
+
 const vqv = (name, yold) => {
   if (name && yold) {
     return `Oi, meu nome é ${name}!

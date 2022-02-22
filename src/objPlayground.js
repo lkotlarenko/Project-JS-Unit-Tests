@@ -33,6 +33,8 @@
   arrayGenerator('entries', { sum: 3, mult: 2, div: 1, sub: 0 }) // [ [ 'sum', 3 ], [ 'mult', 2 ], [ 'div', 1 ], [ 'sub', 0 ] ]
 */
 
+//* This file may have parts of it written by @Jean Paulo Silva Vasconcelos
+
 const calculator = (n1, n2) => {
   const result = {
     sum: n1 + n2,

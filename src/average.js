@@ -12,6 +12,8 @@
     - average([1, '2']) // Retorno: undefined;
 */
 
+//* This file may have parts of it written by @Jean Paulo Silva Vasconcelos
+
 const average = (array) => {
   let m = 0;
   for (let i of array) {

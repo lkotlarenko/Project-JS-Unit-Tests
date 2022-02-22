@@ -36,6 +36,8 @@ Retorno:
 }
 */
 
+//* This file may have parts of it written by @Jean Paulo Silva Vasconcelos
+
 const characters = {
   arya: {
     name: 'Arya Stark',
